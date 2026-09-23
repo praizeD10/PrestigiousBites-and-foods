@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="prestigious bites logo.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_cart" />
+    <title>Order | PrestigiousBites & Foods</title>
+
+    <link rel="stylesheet" href="order.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <a href="index.html" class="logo">
+            <img src="prestigious bites logo.jpg" alt="PrestigiousBites & Foods"></a>
+
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="nav-backdrop" aria-hidden="true"></div>
+
+        <nav class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="home.html#about">About Us</a>
+            <a href="home.html#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <main class="menu-page">
+        <div class="menu-heading">
+            <p>PRESTIGIOUS BITES & FOODS</p>
+            <h1>Our Menu</h1>
+            <span></span>
+            <h3>Made with care, served with love.</h3>
+        </div>
+
+        <div class="categories">
+            <button class="category-btn active" data-category="all">All</button>
+            <button class="category-btn" data-category="cakes">Cakes</button>
+            <button class="category-btn" data-category="Foods">Foods</button>
+            <button class="category-btn" data-category="soups">Soups</button>
+            <button class="category-btn" data-category="small chops">Small Chops</button>
+        </div>
+
+        <section class="products" >
+            <div class="product-card" data-category="Foods">
+                <img src="foods/rice and vegetable.jpg" alt="Rice and vegetable food">
+                <div class="product-info">
+                    <h2 class="item-title">Rice and Vegetable</h2>
+                    <p class="item-price">₦25,000</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+
+            <div class="product-card" data-category="cakes">
+                <img src="cakes/butter cream cake.jpg" alt="Chocolate Cake">
+                <div class="product-info">
+                    <h2 class="item-title">Butter Cream Cake</h2>
+                    <p class="item-price">₦12,000</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+
+            <div class="product-card" data-category="soups">
+                <img src="soup/assorted vegetables.jpg" alt="Egusi Soup">
+                <div class="product-info">
+                    <h2 class="item-title">Assorted vegetable soup</h2>
+                    <p class="item-price">₦19,500</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="cakes">
+                <img src="cakes/creamy cupcakes.jfif" alt="Creamy Cup cakes">
+                <div class="product-info">
+                    <h2 class="item-title">Creamy cupcakes</h2>
+                    <p class="item-price">₦4,500</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="small chops">
+                <img src="small chops/banana bread.jpg" alt="Small Chops">
+                <div class="product-info">
+                    <h2 class="item-title">1 loaf of Banana Bread</h2>
+                    <p class="item-price">₦7,000</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="small chops">
+                <img src="small chops/chin chin2.jpg" alt="Small Chops">
+                <div class="product-info">
+                    <h2 class="item-title">Chin Chin</h2>
+                    <p class="item-price">₦6,000</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="cakes">
+                <img src="cakes/Bento cakes.jpg" alt="Bento Cake">
+                <div class="product-info">
+                    <h2 class="item-title">Bento Cakes</h2>
+                    <p class="item-price">₦10,000</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="soups">
+                <img src="soup/stew.jpg" alt="Bowl of Soup">
+                <div class="product-info">
+                    <h2 class="item-title">1.5L bowl of beef Stew</h2>
+                    <p class="item-price">₦21,000</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="Foods">
+                <img src="foods/special pasta.jpg" alt="Special pasta">
+                <div class="product-info">
+                    <h2 class="item-title">1.5L bowl of Special pasta</h2>
+                    <p class="item-price">₦22,500</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="cakes">
+                <img src="cakes/birthday cake.jpg" alt="Birthday cake for Children">
+                <div class="product-info">
+                    <h2 class="item-title">Birthday cake for children</h2>
+                    <p class="item-price">₦30,000 (adjusted to preference)</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="soups">
+                <img src="soup/egusi.jpg" alt="Egusi Soup">
+                <div class="product-info">
+                    <h2 class="item-title">1.5L bowl of Egusi Soup</h2>
+                    <p class="item-price">₦19,500</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="small chops">
+                <img src="small chops/chin chin.jpg" alt="Small Chops">
+                <div class="product-info">
+                    <h2 class="item-title">Chin Chin</h2>
+                    <p class="item-price">₦6,000</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="cakes">
+                <img src="cakes/custom cakes1.jpg" alt="3 step cakes">
+                <div class="product-info">
+                    <h2 class="item-title">3 tier wedding cake</h2>
+                    <p class="item-price">₦350,000 (with flavour and design of preference)</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="soups">
+                <img src="soup/groundnut soup.jpg" alt="Bowl of Soup">
+                <div class="product-info">
+                    <h2 class="item-title">1.5L bowl of Groundnut Soup</h2>
+                    <p class="item-price">₦19,000</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="small chops">
+                <img src="small chops/unfried chops.jpg" alt="Small Chops">
+                <div class="product-info">
+                    <h2 class="item-title">Unfried small Chops(60 pcs)</h2>
+                    <p class="item-price">₦15,000</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="cakes">
+                <img src="cakes/cake slices.jpg" alt="Bento Cake">
+                <div class="product-info">
+                    <h2 class="item-title">Different flavours of Cake Slices</h2>
+                    <p class="item-price">₦3,500</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="Foods">
+                <img src="foods/coconut rice.jpg" alt="Coconut Rice">
+                <div class="product-info">
+                    <h2 class="item-title">1.5L bowl of Coconut Rice</h2>
+                    <p class="item-price">₦19,000</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+             <div class="product-card" data-category="cakes">
+                <img src="cakes/wedding cake.jpg" alt="3 step cakes">
+                <div class="product-info">
+                    <h2 class="item-title">2 tier whipped cream wedding cake</h2>
+                    <p class="item-price">₦150,000</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="small chops">
+                <img src="small chops/meat pie.jpg" alt="Meat Pie">
+                <div class="product-info">
+                    <h2 class="item-title">Meat Pie</h2>
+                    <p class="item-price">₦1,000</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="cakes">
+                <img src="cakes/cartoon cake.jpg" alt="Cartoon cake">
+                <div class="product-info">
+                    <h2 class="item-title">Cartoon themed birthday cake</h2>
+                    <p class="item-price">₦25,000</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="small chops">
+                <img src="small chops/puff puff.jpg" alt="Puff Puff">
+                <div class="product-info">
+                    <h2 class="item-title">Puff Puff</h2>
+                    <p class="item-price">₦200</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="cakes">
+                <img src="cakes/cupcakes.jpg" alt="Cup cakes">
+                <div class="product-info">
+                    <h2 class="item-title">Plain Cupcakes (box of 6)</h2>
+                    <p class="item-price">₦4,500</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="soups">
+                <img src="soup/okra soup.jpg" alt="Bowl of Soup">
+                <div class="product-info">
+                    <h2 class="item-title">1.5L bowl of Okra Soup</h2>
+                    <p class="item-price">₦18,500</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="small chops">
+                <img src="small chops/Pasteries.jpeg" alt="Pasteries">
+                <div class="product-info">
+                    <h2 class="item-title">Pasteries</h2>
+                    <p class="item-price">₦20,000</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="cakes">
+                <img src="cakes/plain cake.jpg" alt="Plain cake">
+                <div class="product-info">
+                    <h2 class="item-title">Plain cake</h2>
+                    <p class="item-price">₦8,000</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="small chops">
+                <img src="small chops/plain donuts.jpg" alt="Plain Doughnuts">
+                <div class="product-info">
+                    <h2 class="item-title">Plain Doughnuts</h2>
+                    <p class="item-price">₦300 each</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="cakes">
+                <img src="cakes/vanilla cake.jpg" alt="Vanilla cake">
+                <div class="product-info">
+                    <h2 class="item-title">Vanilla sponge cake (size 8)</h2>
+                    <p class="item-price">₦7,000</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="small chops">
+                <img src="small chops/chops pllatter.jpg" alt="Small chops platter">
+                <div class="product-info">
+                    <h2 class="item-title">Small chops platter</h2>
+                    <p class="item-price">₦20,000 (adjusted to preference)</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="small chops">
+                <img src="small chops/fried chops.jpg" alt="Fried chops">
+                <div class="product-info">
+                    <h2 class="item-title">Fried chops (samosa, spring rolls & puff puff)</h2>
+                    <p class="item-price">₦10,000</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+             <div class="product-card" data-category="cakes">
+                <img src="cakes/cake bites.jpg" alt="Cake Bites">
+                <div class="product-info">
+                    <h2 class="item-title">Cake Bites</h2>
+                    <p class="item-price">₦3,000</p>
+                    <button class="add-btn"><a id="cartLink" href="https://wa.me/message/Q4CFCT2MSYMPK1">Buy Now</a></button>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script src="order.js"></script>
+</body>
+</html>
